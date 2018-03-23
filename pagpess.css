@@ -1,0 +1,99 @@
+a{
+    width: 100%
+    
+}
+
+body{
+    background: url('https://cdn.pixabay.com/photo/2017/10/05/10/42/the-background-2819000_960_720.png') center center no-repeat fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-animation-duration: 4s;  
+    -moz-animation-name: roll;  
+    -moz-animation-iteration-count: 1; 
+    -webkit-animation-duration: 4s;  
+    -webkit-animation-name: roll;  
+    -webkit-animation-iteration-count: 1; 
+    -o-animation-duration: 4s;  
+    -o-animation-name: roll;  
+    -o-animation-iteration-count: 1; 
+}
+
+@-moz-keyframes roll { 
+    100% { 
+            -moz-transform: rotate(360deg); 
+        } 
+} 
+
+@-o-keyframes roll { 
+    100% { 
+            -o-transform: rotate(360deg); 
+        } 
+}
+
+@-webkit-keyframes roll { 
+    100% { 
+            -webkit-transform: rotate(360deg); 
+         } 
+}
+
+ul li{
+	list-style-type:none;
+	display:inline;
+	padding-left:15px;
+	padding-right:15px;
+	background-color:#33ccff;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:23px;
+	color:#ffffff;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+ul li a{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:23px;
+	color:#ffffff;
+	text-decoration:none;
+}
+
+ul li:hover{
+	background-color:#0033cc;
+}
+
+#table{
+    background-color: red;
+    animation-name: horda;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes horda {
+    0%   {background-color: #ff0000;}
+    10%  {background-color: #ff8800;}
+    20%  {background-color: #ffe600;}
+    30%  {background-color: #bbff00;}
+    40%  {background-color: #00fd22;}
+    50%  {background-color: #00ffbf;}
+    60%  {background-color: #00a2ff;}
+    70%  {background-color: #0051ff;}
+    80%  {background-color: #6f00ff;}
+    90%  {background-color: #f700ff;}
+    100% {background-color: #ff0062;}
+}
+
+@keyframes horda {
+    0%   {background-color: #ff0000;}
+    10%  {background-color: #ff8800;}
+    20%  {background-color: #ffe600;}
+    30%  {background-color: #bbff00;}
+    40%  {background-color: #00fd22;}
+    50%  {background-color: #00ffbf;}
+    60%  {background-color: #00a2ff;}
+    70%  {background-color: #0051ff;}
+    80%  {background-color: #6f00ff;}
+    90%  {background-color: #f700ff;}
+    100% {background-color: #ff0062;}
+}
